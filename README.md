@@ -90,19 +90,19 @@ rubik/
 ```
 ## ✅ Fonctionnalités obligatoires & bonus
 ### Obligatoire
-✔ Lecture d’une séquence de spins
-✔ Représentation interne du cube (3D ou simplifiée)
-✔ Affichage de la solution optimisée en notation HTM
-✔ Temps de calcul < 3 secondes
-✔ Longueur moyenne de solution ≤ 50 coups
+    ✔ Lecture d’une séquence de spins
+    ✔ Représentation interne du cube (3D ou simplifiée)
+    ✔ Affichage de la solution optimisée en notation HTM 
+    ✔ Temps de calcul < 3 secondes
+    ✔ Longueur moyenne de solution ≤ 50 coups
 
 ### Bonus
-🎨 Visualisation ASCII ou curses du cube
-🧠 Plusieurs algorithmes au choix (`--algo`)
-🧪 Générateur de scramble intégré (`--mix 20`)
-📊 Analyse comparative de solutions
-🔄 Support du cube 2x2x2 (`--variant 2x2`)
-📚 Décomposition pédagogique de la résolution (`--explain`)
+    🎨 Visualisation ASCII ou curses du cube
+    🧠 Plusieurs algorithmes au choix (`--algo`)
+    🧪 Générateur de scramble intégré (`--mix 20`)
+    📊 Analyse comparative de solutions
+    🔄 Support du cube 2x2x2 (`--variant 2x2`)
+    📚 Décomposition pédagogique de la résolution (`--explain`)
 
 ## 📌 Bonnes pratiques d’exploitation
 - Gestion robuste des erreurs d’input (mauvaise syntaxe, spins non autorisés)
@@ -127,11 +127,9 @@ Merci de respecter :
 Ce projet est sous licence [MIT](./LICENSE)
 
 ## 👤 Crédits & contact
-Auteur : VERISSIMO
-
-École : 42 Paris
-
-Mail : raveriss@student.42.fr
+    Auteur : VERISSIMO
+    École : 42 Paris
+    Mail : raveriss@student.42.fr
 
 > "Un cube peut être résolu en 20 mouvements. Mais votre code peut-il le faire en 3 secondes ?”
 > 
