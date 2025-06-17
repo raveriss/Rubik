@@ -12,7 +12,11 @@ from utils.cube_utils import apply_scramble
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Rubik's cube solver")
     parser.add_argument("scramble", nargs="?", help="scramble sequence")
+<<<<<<< dsx6ul-codex/implémenter-le-code-selon-les-contraintes
     parser.add_argument("--algo", default="simple", help="solver algorithm")
+=======
+    parser.add_argument("--algo", default="kociemba", help="solver algorithm")
+>>>>>>> main
     parser.add_argument("--mix", type=int, default=0, help="generate random scramble of length")
     parser.add_argument("--ascii", action="store_true", help="display cube after scramble")
     return parser.parse_args()

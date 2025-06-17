@@ -1,2 +1,6 @@
 pycuber
+<<<<<<< dsx6ul-codex/implémenter-le-code-selon-les-contraintes
+=======
+kociemba
+>>>>>>> main
 pytest

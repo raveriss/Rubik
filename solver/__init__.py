@@ -1,12 +1,9 @@
-from __future__ import annotations
-
 from .simple_solver import SimpleSolver
 
 
 SOLVERS = {
     'simple': SimpleSolver,
 }
-
 
 def get_solver(name: str = 'simple'):  # type: ignore
     solver_cls = SOLVERS.get(name)

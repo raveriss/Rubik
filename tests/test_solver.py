@@ -7,7 +7,6 @@ def test_solve_trivial():
     solver = get_solver()
     assert solver.solve("") == []
 
-
 def test_solve_single_move():
     solver = get_solver()
     solution = solver.solve("U")
