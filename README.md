@@ -80,8 +80,7 @@ rubik/
 ├── rubik.py            # Script principal
 ├── cube.py             # Modèle de Rubik's Cube
 ├── solver/             # Algorithmes de résolution
-│   ├── idastar.py
-│   └── bruteforce.py
+│   └── simple_solver.py
 ├── utils/              # Outils d’analyse, parsing, affichage
 ├── tests/              # Tests unitaires
 ├── requirements.txt    # Dépendances Python
@@ -109,7 +108,7 @@ rubik/
 - Interdiction d’inverser naïvement la séquence de mélange
 - Respect strict de la **notation standard**
 (F, R, U, B, L, D avec suffixes `'`, `2`)
-- Algorithmes optimisés : IDA*, BFS amélioré, heuristiques admissibles
+- Algorithmes optimisés : implémentation de l’algorithme à deux phases
 
 ## 🤝 Contribution
 Envie de contribuer ?
