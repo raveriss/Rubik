@@ -80,7 +80,11 @@ rubik/
 ├── rubik.py            # Script principal
 ├── cube.py             # Modèle de Rubik's Cube
 ├── solver/             # Algorithmes de résolution
+<<<<<<< dsx6ul-codex/implémenter-le-code-selon-les-contraintes
+│   └── simple_solver.py
+=======
 │   └── kociemba_solver.py
+>>>>>>> main
 ├── utils/              # Outils d’analyse, parsing, affichage
 ├── tests/              # Tests unitaires
 ├── requirements.txt    # Dépendances Python

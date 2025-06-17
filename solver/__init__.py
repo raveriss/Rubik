@@ -1,16 +1,11 @@
-from __future__ import annotations
-
-from typing import List
-
-from .kociemba_solver import KociembaSolver
+from .simple_solver import SimpleSolver
 
 
 SOLVERS = {
-    'kociemba': KociembaSolver,
+    'simple': SimpleSolver,
 }
 
-
-def get_solver(name: str = 'kociemba'):  # type: ignore
+def get_solver(name: str = 'simple'):  # type: ignore
     solver_cls = SOLVERS.get(name)
     if not solver_cls:
         raise ValueError(f"Unknown solver {name}")
