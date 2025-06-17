@@ -1,0 +1,1539 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://kociemba.org/math/twophase.htm
+Subject: =?utf-8?Q?L'algorithme=20=C3=A0=20deux=20phases?=
+Date: Tue, 17 Jun 2025 11:20:07 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----"
+
+
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: text/html
+Content-ID: <frame-16824726621FE4B768F883DE27B85135@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://kociemba.org/math/twophase.htm
+
+<html class=3D"translated-ltr"><head><meta http-equiv=3D"Content-Type" cont=
+ent=3D"text/html; charset=3Dwindows-1252">
+
+<title>L'algorithme =E0 deux phases</title>
+
+
+
+<link rel=3D"stylesheet" href=3D"https://kociemba.org/math/style.css" type=
+=3D"text/css">
+
+<link type=3D"text/css" rel=3D"stylesheet" charset=3D"UTF-8" href=3D"https:=
+//www.gstatic.com/_/translate_http/_/ss/k=3Dtranslate_http.tr.pgV-E-68K-A.L=
+.W.O/am=3DAIAB/d=3D0/rs=3DAN8SPfrmq8FRbUqU1IlJUoEnksIMIqlZPQ/m=3Del_main_cs=
+s"></head>
+
+
+
+<body data-new-gr-c-s-check-loaded=3D"14.1240.0" data-gr-ext-installed=3D""=
+>
+
+<table width=3D"800" border=3D"0" cellpadding=3D"20" cellspacing=3D"30">
+
+  <tbody><tr>=20
+
+    <td width=3D"703" valign=3D"top" bgcolor=3D"#E7E9FA">=20
+
+      <h1 align=3D"center"><font style=3D"vertical-align: inherit;"><font s=
+tyle=3D"vertical-align: inherit;">Les coordonn=E9es de l'algorithme =E0 deu=
+x phases</font></font></h1>
+
+    </td>
+
+  </tr>
+
+  <tr>=20
+
+    <td valign=3D"top" bgcolor=3D"#E7E9FA" height=3D"472">=20
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Si vous tournez les faces d'un cube r=E9solu sans utiliser =
+les mouvements R, R', L, L', F, F', B et B', vous ne g=E9n=E9rerez qu'un so=
+us-ensemble de tous les cubes possibles. Ce sous-ensemble est not=E9 par</f=
+ont></font><a name=3D"G1"></a><font style=3D"vertical-align: inherit;"><fon=
+t style=3D"vertical-align: inherit;">G1 =3D &lt;U,D,R2,L2,F2,B2&gt;.=20
+
+      </font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Un repr=E9sentant typique de G1 ressemble =E0 ceci :</font>=
+</font></p>
+
+      <p><img src=3D"https://kociemba.org/pics/phase2.gif" width=3D"336" he=
+ight=3D"259"></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Dans ce sous-ensemble, les orientations de tous les coins e=
+t de toutes les ar=EAtes sont =E9gales =E0 0. Et les quatre ar=EAtes de la =
+tranche UD (entre la face U et la face D) restent isol=E9es dans cette tran=
+che.</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">En revanche, si l'orientation de tous les coins et de toute=
+s les ar=EAtes est nulle, et que les quatre ar=EAtes de la tranche UD sont =
+dans leur tranche, nous avons un =E9l=E9ment de G1. Ce fait n'est pas trivi=
+al et repose sur le fait que les g=E9n=E9rateurs U, D, R2, L2, F2 et B2 g=
+=E9n=E8rent effectivement tous les =E9l=E9ments poss=E9dant cette propri=E9=
+t=E9. </font></font><br><font style=3D"vertical-align: inherit;"><font styl=
+e=3D"vertical-align: inherit;">
+        Par exemple</font></font></p>
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">U R2 U R2 D' F2 L2 D' B2 U B2 R2 U2 R2 D2 L2 </font></font>=
+<br><font style=3D"vertical-align: inherit;"><font style=3D"vertical-align:=
+ inherit;">
+        U2 F2 U2 F2 U2 F2 </font></font><br><font style=3D"vertical-align: =
+inherit;"><font style=3D"vertical-align: inherit;">
+        U2 F2 U2 D2 B2 D2</font></font></p>
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">=E9changer les coins ULB&lt;=96&gt;UBR, les ar=EAtes UR&lt;=
+=96&gt;UL et les ar=EAtes de tranche BR&lt;=96&gt;BL (pour des raisons de p=
+arit=E9 avec FR&lt;=96&gt;FL) et peut =EAtre utilis=E9 pour construire tout=
+es les permutations possibles.</font></font></p></td>
+
+  </tr>
+
+  <tr>=20
+
+    <td valign=3D"top" bgcolor=3D"#E7E9FA" height=3D"94">=20
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">L'algorithme =E0 deux phases r=E9sout le cube en deux =E9ta=
+pes.</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Dans </font></font><font color=3D"#0000FF"><font style=3D"v=
+ertical-align: inherit;"><font style=3D"vertical-align: inherit;">la phase =
+1</font></font></font><font style=3D"vertical-align: inherit;"><font style=
+=3D"vertical-align: inherit;"> , l'algorithme recherche les man=9Cuvres per=
+mettant de transformer un cube brouill=E9 en G1. Autrement dit, les orienta=
+tions des coins et des ar=EAtes doivent =EAtre contraintes et les ar=EAtes =
+de la tranche UD doivent =EAtre transf=E9r=E9es dans cette tranche. Dans </=
+font></font><font color=3D"#0000FF"><font style=3D"vertical-align: inherit;=
+"><font style=3D"vertical-align: inherit;">la phase 2,</font></font></font>=
+<font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inh=
+erit;"> nous restaurons le cube.</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Il existe de nombreuses possibilit=E9s diff=E9rentes de man=
+=9Cuvres dans la phase 1. L'algorithme essaie diff=E9rentes man=9Cuvres de =
+phase 1 pour trouver la solution globale la plus courte possible.</font></f=
+ont></p>
+
+      </td>
+
+  </tr>
+
+  <tr>=20
+
+    <td valign=3D"top" bgcolor=3D"#E7E9FA" height=3D"598">
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Dans </font></font><font color=3D"#0000FF"><font style=3D"v=
+ertical-align: inherit;"><font style=3D"vertical-align: inherit;">la phase =
+1</font></font></font><font style=3D"vertical-align: inherit;"><font style=
+=3D"vertical-align: inherit;"> , tout cube est d=E9crit avec trois coordonn=
+=E9es :</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">La </font></font><a href=3D"https://kociemba.org/math/coord=
+level.htm#cornoridef"><font style=3D"vertical-align: inherit;"><font style=
+=3D"vertical-align: inherit;">coordonn=E9e d'orientation du coin (0..2186)<=
+/font></font></a><font style=3D"vertical-align: inherit;"><font style=3D"ve=
+rtical-align: inherit;"> , la </font></font><a href=3D"https://kociemba.org=
+/math/coordlevel.htm#edgeoridef"><font style=3D"vertical-align: inherit;"><=
+font style=3D"vertical-align: inherit;">coordonn=E9e d'orientation du bord =
+(0..2047)</font></font></a><font style=3D"vertical-align: inherit;"><font s=
+tyle=3D"vertical-align: inherit;"> =20
+
+        et </font></font><a href=3D"https://kociemba.org/math/twophase.htm#=
+udslicedef"><font style=3D"vertical-align: inherit;"><font style=3D"vertica=
+l-align: inherit;">la coordonn=E9e UDSlice</font></font></a></p>
+
+      <p><a name=3D"udslicedef"></a><font style=3D"vertical-align: inherit;=
+"><font style=3D"vertical-align: inherit;">Les </font></font><b><font style=
+=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">coor=
+donn=E9es UDSlice</font></font></b><font style=3D"vertical-align: inherit;"=
+><font style=3D"vertical-align: inherit;"> sont des nombres compris entre 0=
+ et 494 (12*11*10*9/4! - 1) d=E9termin=E9s par la position des quatre ar=EA=
+tes UDSlice. L'ordre de ces ar=EAtes est ignor=E9.</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Prenons l'exemple du mouvement F :</font></font></p>
+
+      <table border=3D"0" width=3D"448" height=3D"175">
+
+        <tbody><tr>=20
+
+          <td width=3D"165" height=3D"76"><img src=3D"https://kociemba.org/=
+pics/fmove.gif" width=3D"165" height=3D"120"></td>
+
+          <td width=3D"134" height=3D"76"><img src=3D"https://kociemba.org/=
+pics/fmoveslice1.gif" width=3D"165" height=3D"120"></td>
+
+          <td width=3D"316" height=3D"76"><img src=3D"https://kociemba.org/=
+pics/fmoveslice2.gif" width=3D"165" height=3D"120"></td>
+
+        </tr>
+
+        <tr>=20
+
+          <td width=3D"165">=20
+
+            <div align=3D"center"><font style=3D"vertical-align: inherit;">=
+<font style=3D"vertical-align: inherit;">Le mouvement F</font></font></div>
+
+          </td>
+
+          <td width=3D"134">=20
+
+            <div align=3D"center"><font style=3D"vertical-align: inherit;">=
+<font style=3D"vertical-align: inherit;">bords UDSlice</font></font></div>
+
+          </td>
+
+          <td width=3D"316">=20
+
+            <div align=3D"center"><font style=3D"vertical-align: inherit;">=
+<font style=3D"vertical-align: inherit;">Ignorer l'ordre</font></font></div=
+>
+
+          </td>
+
+        </tr>
+
+      </tbody></table>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">La fonction suivante, issue de cubicube.pas, impl=E9mente l=
+e calcul de cette coordonn=E9e. Son fonctionnement n'est pas =E9vident et e=
+st expliqu=E9 plus en d=E9tail </font></font><a href=3D"https://kociemba.or=
+g/math/UDSliceCoord.htm"><font style=3D"vertical-align: inherit;"><font sty=
+le=3D"vertical-align: inherit;">ici</font></font></a><font style=3D"vertica=
+l-align: inherit;"><font style=3D"vertical-align: inherit;"> . C(n,k) est l=
+e coefficient binomial (n choisit k).</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">fonction CubieCube.UDSliceCoord; </font></font><br><font st=
+yle=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        var s: Mot; k,n: Entier; occup=E9: tableau[0..11] de bool=E9en; ed:=
+ Bord; </font></font><br><font style=3D"vertical-align: inherit;"><font sty=
+le=3D"vertical-align: inherit;">
+
+        d=E9but </font></font><br><font style=3D"vertical-align: inherit;">=
+<font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;pour n:=3D 0 =E0 11 faire occup=E9[n]:=3Dfaux; </font><=
+/font><br><font style=3D"vertical-align: inherit;"><font style=3D"vertical-=
+align: inherit;">
+
+        &nbsp;&nbsp;pour ed:=3DUR =E0 BR faire si PEdge^[ed].e &gt;=3D FR a=
+lors occup=E9[Mot(ed)]:=3Dvrai; </font></font><br><font style=3D"vertical-a=
+lign: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;s:=3D0; k:=3D3; n:=3D11; </font></font><br><font style=
+=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;tant que k&gt;=3D 0 faire </font></font><br><font style=
+=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;d=E9but </font></font><br><font style=3D"vertical-align=
+: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;si occup=E9[n] alors Dec(k) </font></font><=
+br><font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: =
+inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;sinon s:=3D s + C(n,k); </font></font><br><=
+font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inhe=
+rit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;Dec(n); </font></font><br><font style=3D"ve=
+rtical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;fin; </font></font><br><font style=3D"verti=
+cal-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;R=E9sultat:=3D s; </font></font><br><font style=3D"vert=
+ical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        fin;</font></font></p>
+
+      </td>
+
+  </tr>
+
+  <tr>=20
+
+    <td valign=3D"top" bgcolor=3D"#E7E9FA">=20
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Ainsi, chaque cube pertinent pour la phase 1 est d=E9crit p=
+ar un triplet de coordonn=E9es (x1,x2,x3), et ce triplet est (0,0,0) si et =
+seulement si nous avons un cube de G1. L'espace du probl=E8me de la phase 1=
+ est</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">2187*2048*495 =3D 2.217.093.120</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">diff=E9rents =E9tats.</font></font></p>
+
+      </td>
+
+  </tr>
+
+  <tr>=20
+
+    <td valign=3D"top" bgcolor=3D"#E7E9FA">=20
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Dans </font></font><font color=3D"#0000FF"><font style=3D"v=
+ertical-align: inherit;"><font style=3D"vertical-align: inherit;">la phase =
+2</font></font></font><font style=3D"vertical-align: inherit;"><font style=
+=3D"vertical-align: inherit;"> , tout cube est =E9galement d=E9crit avec tr=
+ois coordonn=E9es :</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">La </font></font><a href=3D"https://kociemba.org/math/coord=
+level.htm#cornpermdef"><font style=3D"vertical-align: inherit;"><font style=
+=3D"vertical-align: inherit;">coordonn=E9e de permutation d'angle (0..40319=
+)</font></font></a><font style=3D"vertical-align: inherit;"><font style=3D"=
+vertical-align: inherit;"> , la </font></font><a href=3D"https://kociemba.o=
+rg/math/twophase.htm#phase2edge"><font style=3D"vertical-align: inherit;"><=
+font style=3D"vertical-align: inherit;">coordonn=E9e de permutation d'ar=EA=
+te de phase 2 (0..40319)</font></font></a><font style=3D"vertical-align: in=
+herit;"><font style=3D"vertical-align: inherit;"> et la </font></font><a hr=
+ef=3D"https://kociemba.org/math/twophase.htm#phase2udslice"><font style=3D"=
+vertical-align: inherit;"><font style=3D"vertical-align: inherit;">coordonn=
+=E9e UDSlice de phase 2 (0..23)</font></font></a><font style=3D"vertical-al=
+ign: inherit;"><font style=3D"vertical-align: inherit;"> .</font></font></p=
+>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Le triple de phase 2 (0,0,0) appartient =E0 un cube vierge.=
+</font></font></p>
+
+      <p> <a name=3D"phase2edge"></a><font style=3D"vertical-align: inherit=
+;"><font style=3D"vertical-align: inherit;">La </font></font><b><font style=
+=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">coor=
+donn=E9e de permutation d'ar=EAte de phase 2</font></font></b><font style=
+=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;"> =20
+
+        est similaire =E0 celle </font></font><a href=3D"https://kociemba.o=
+rg/math/coordlevel.htm#edgeoridef"><font style=3D"vertical-align: inherit;"=
+><font style=3D"vertical-align: inherit;">indiqu=E9e</font></font></a><font=
+ style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;=
+"> =20
+
+        dans la description du niveau de coordonn=E9es. Elle n'est valable =
+qu'en phase 2.</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Nous avons 8! =3D 40320 possibilit=E9s de permuter les 8 ar=
+=EAtes des faces U et D (rappelons que nous n'autorisons que des virages =
+=E0 180 degr=E9s pour toutes les faces R, L, F et B).</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">fonction CubieCube.Phase2EdgePermCoord : Mot ; </font></fon=
+t><br><font style=3D"vertical-align: inherit;"><font style=3D"vertical-alig=
+n: inherit;">
+
+        var i,j : Ar=EAte ; x,s : Entier ; </font></font><br><font style=3D=
+"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        d=E9but </font></font><br><font style=3D"vertical-align: inherit;">=
+<font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;x :=3D 0 ; </font></font><br><font style=3D"vertical-al=
+ign: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;pour i :=3D DB jusqu'=E0 Succ(UR) faire </font></font><=
+br><font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: =
+inherit;">
+
+        &nbsp;&nbsp;commencer </font></font><br><font style=3D"vertical-ali=
+gn: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;s :=3D0 ; </font></font><br><font style=3D"=
+vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;pour j :=3D Pred(i) jusqu'=E0 UR faire </fo=
+nt></font><br><font style=3D"vertical-align: inherit;"><font style=3D"verti=
+cal-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;commencer </font></font><br><font style=3D"=
+vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;si PEdge^[j].e&gt;PEdge^[i].e a=
+lors Inc(s) ; </font></font><br><font style=3D"vertical-align: inherit;"><f=
+ont style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;fin ; </font></font><br><font style=3D"vert=
+ical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x :=3D (x+s)*Ord(i) ; </font></=
+font><br><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">
+
+        &nbsp;&nbsp;fin ; </font></font><br><font style=3D"vertical-align: =
+inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;R=E9sultat :=3Dx ; </font></font><br><font style=3D"ver=
+tical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        fin ;</font></font></p>
+
+      <p><a name=3D"phase2udslice"></a><font style=3D"vertical-align: inher=
+it;"><font style=3D"vertical-align: inherit;">La </font></font><b><font sty=
+le=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">co=
+ordonn=E9e UDSlice de la phase 2</font></font></b><font style=3D"vertical-a=
+lign: inherit;"><font style=3D"vertical-align: inherit;"> devrait =EAtre co=
+mprise entre 0 et 23, car elle repr=E9sente les 4&nbsp;! permutations des a=
+r=EAtes UDSlice de leur tranche. Nous utilisons cependant une extension de =
+la </font></font><a href=3D"https://kociemba.org/math/twophase.htm#udsliced=
+ef"><font style=3D"vertical-align: inherit;"><font style=3D"vertical-align:=
+ inherit;">coordonn=E9e UDSlice</font></font></a><font style=3D"vertical-al=
+ign: inherit;"><font style=3D"vertical-align: inherit;"> , d=E9j=E0 utilis=
+=E9e dans le solveur optimal g=E9ant, o=F9 nous prenons =E9galement en comp=
+te l'ordre des quatre ar=EAtes. Cette </font></font><b><font style=3D"verti=
+cal-align: inherit;"><font style=3D"vertical-align: inherit;">coordonn=E9e =
+=AB&nbsp;tri=E9e&nbsp;=BB</font></font></b><font style=3D"vertical-align: i=
+nherit;"><font style=3D"vertical-align: inherit;"> est comprise entre 0 et =
+11&nbsp;879&nbsp;=3D&nbsp;12&nbsp;*&nbsp;11&nbsp;*&nbsp;10&nbsp;*&nbsp;9-1.=
+ Or, en phase 2, cette coordonn=E9e ne prend que des valeurs comprises entr=
+e 0 et 23.</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">Voici l'impl=E9mentation de cubicube.pas :</font></font></p=
+>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">fonction CubieCube.UDSliceSortedCoord : Word ;</font></font=
+></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">var j,k,s,x : entier ; i,e : ar=EAte ; arr : tableau[0..3] =
+d'ar=EAte ; </font></font><br><font style=3D"vertical-align: inherit;"><fon=
+t style=3D"vertical-align: inherit;">
+
+        d=E9but </font></font><br><font style=3D"vertical-align: inherit;">=
+<font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp; j :=3D0 ; </font></font><br><font style=3D"vertical-al=
+ign: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;pour i :=3D UR =E0 BR, </font></font><br><font style=3D=
+"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;commencer </font></font><br><font style=3D"vertical-ali=
+gn: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;e :=3DPEdge^[i].e ; </font></font><br><font=
+ style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;=
+">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;si (e=3DFR) ou (e=3DFL) ou (e=3DBL) ou (e=
+=3DBR) alors d=E9but arr[j] :=3D e ; Inc(j) ; fin ; </font></font><br><font=
+ style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;=
+">
+
+        &nbsp;&nbsp;fin ;</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;"> &nbsp;&nbsp;x:=3D 0; </font></font><br><font style=3D"vert=
+ical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;pour j:=3D 3 jusqu'=E0 1, </font></font><br><font style=
+=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;commencer </font></font><br><font style=3D"vertical-ali=
+gn: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;s:=3D 0; </font></font><br><font style=3D"v=
+ertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;pour k:=3D j-1 jusqu'=E0 0, </font></font><=
+br><font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: =
+inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;commencer </font></font><br><font style=3D"=
+vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;si arr[k]&gt;arr[j] alors Inc(s=
+); </font></font><br><font style=3D"vertical-align: inherit;"><font style=
+=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;fin; </font></font><br><font style=3D"verti=
+cal-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;x:=3D (x+s)*j; </font></font><br><font styl=
+e=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;fin; </font></font><br><font style=3D"vertical-align: i=
+nherit;"><font style=3D"vertical-align: inherit;">
+
+        &nbsp;&nbsp;R=E9sultat:=3D UDSliceCoord*24 + x; </font></font><br><=
+font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inhe=
+rit;">
+
+        fin;</font></font><br>
+
+      </p>
+
+      <p>&nbsp; </p>
+
+      </td>
+
+  </tr>
+
+  <tr>=20
+
+    <td valign=3D"top" bgcolor=3D"#E7E9FA">=20
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">L'espace du probl=E8me de la phase 2 a</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">40320*40320*24/2 =3D 19.508.428.800</font></font></p>
+
+      <p><font style=3D"vertical-align: inherit;"><font style=3D"vertical-a=
+lign: inherit;">diff=E9rents =E9tats.</font></font></p>
+
+      </td>
+
+  </tr>
+
+</tbody></table><div id=3D"goog-gt-tt" class=3D"VIpgJd-yAWNEb-L7lbkb skiptr=
+anslate" style=3D"border-radius: 12px; margin: 0 0 0 -23px; padding: 0; fon=
+t-family: 'Google Sans', Arial, sans-serif;" data-id=3D""><div id=3D"goog-g=
+t-vt" class=3D"VIpgJd-yAWNEb-hvhgNd"><div class=3D"VIpgJd-yAWNEb-hvhgNd-Ud7=
+fr"><img src=3D"https://fonts.gstatic.com/s/i/productlogos/translate/v14/24=
+px.svg" width=3D"24" height=3D"24" alt=3D""><div class=3D" VIpgJd-yAWNEb-hv=
+hgNd-IuizWc-i3jM8c " dir=3D"ltr">Original text</div></div><div class=3D"VIp=
+gJd-yAWNEb-hvhgNd-k77Iif"><div id=3D"goog-gt-original-text" class=3D"VIpgJd=
+-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div></div><div class=3D"=
+VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr"><div class=3D"VIpgJd-yAWNEb-hvhgNd-N7Eqid-=
+B7I4Od ltr" dir=3D"ltr"><div class=3D"VIpgJd-yAWNEb-hvhgNd-UTujCb">Rate thi=
+s translation</div><div class=3D"VIpgJd-yAWNEb-hvhgNd-eO9mKe">Your feedback=
+ will be used to help improve Google Translate</div></div><div class=3D"VIp=
+gJd-yAWNEb-hvhgNd-xgov5 ltr"><button id=3D"goog-gt-thumbUpButton" type=3D"b=
+utton" class=3D"VIpgJd-yAWNEb-hvhgNd-bgm6sf" title=3D"Good translation" ari=
+a-label=3D"Good translation" aria-pressed=3D"false"><span id=3D"goog-gt-thu=
+mbUpIcon"><svg width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" focusable=
+=3D"false" class=3D"VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d=3D"M21 7h-6.=
+31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83=
+ 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18=
+H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path></svg></span><span id=
+=3D"goog-gt-thumbUpIconFilled"><svg width=3D"24" height=3D"24" viewBox=3D"0=
+ 0 24 24" focusable=3D"false" class=3D"VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><=
+path d=3D"M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6=
+.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1=
+.1-.9-2-2-2zM5 7H1v13h4V7z"></path></svg></span></button><button id=3D"goog=
+-gt-thumbDownButton" type=3D"button" class=3D"VIpgJd-yAWNEb-hvhgNd-bgm6sf" =
+title=3D"Poor translation" aria-label=3D"Poor translation" aria-pressed=3D"=
+false"><span id=3D"goog-gt-thumbDownIcon"><svg width=3D"24" height=3D"24" v=
+iewBox=3D"0 0 24 24" focusable=3D"false" class=3D"VIpgJd-yAWNEb-hvhgNd-THI6=
+Vb NMm5M"><path d=3D"M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 2=
+4s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-=
+.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z=
+"></path></svg></span><span id=3D"goog-gt-thumbDownIconFilled"><svg width=
+=3D"24" height=3D"24" viewBox=3D"0 0 24 24" focusable=3D"false" class=3D"VI=
+pgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d=3D"M3 17h6.31l-.95 4.57-.03.32c0 .=
+41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02=
+ 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path></svg>=
+</span></button></div></div><div id=3D"goog-gt-votingHiddenPane" class=3D"V=
+IpgJd-yAWNEb-hvhgNd-aXYTce"><form id=3D"goog-gt-votingForm" action=3D"https=
+://translate.googleapis.com/translate_voting?client=3Dte_lib" method=3D"pos=
+t" target=3D"votingFrame" class=3D"VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type=
+=3D"text" name=3D"sl" id=3D"goog-gt-votingInputSrcLang"><input type=3D"text=
+" name=3D"tl" id=3D"goog-gt-votingInputTrgLang"><input type=3D"text" name=
+=3D"query" id=3D"goog-gt-votingInputSrcText"><input type=3D"text" name=3D"g=
+trans" id=3D"goog-gt-votingInputTrgText"><input type=3D"text" name=3D"vote"=
+ id=3D"goog-gt-votingInputVote"></form><iframe name=3D"votingFrame" framebo=
+rder=3D"0"></iframe></div></div></div>
+
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"int=E9gration grammaticale"=
+ role=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" dat=
+a-content=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&=
+quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-inte=
+gration></html>
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/=
+1999/xlink" height=3D"24" viewBox=3D"0 0 24 24" width=3D"24"><path d=3D"M0 =
+0h24v24H0z" fill=3D"none"/><defs><path d=3D"M21.5 5h-9.17L11 1H2.5C1.68 1 1=
+ 1.68 1 2.5v15c0 .83.68 1.5 1.5 1.5h9.17L13 23h8.5c.82 0 1.5-.68 1.5-1.5v-1=
+5c0-.83-.68-1.5-1.5-1.5z" id=3D"a"/></defs><clipPath id=3D"b"><use overflow=
+=3D"visible" xlink:href=3D"#a"/></clipPath><g clip-path=3D"url(#b)"><image =
+height=3D"31" opacity=3D".2" overflow=3D"visible" transform=3D"translate(3 =
+1)" width=3D"29" xlink:href=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUg=
+AAAB0AAAAfCAYAAAAbW8YEAAAACXBIWXMAAAsSAAALEgHS3X78AAAA GXRFWHRTb2Z0d2FyZQBB=
+ZG9iZSBJbWFnZVJlYWR5ccllPAAABQBJREFUeNq8V8tu20YUvXdm+LCk RKiMwI1TFEXhVZJd1g=
+W66xekv9DPqPsvXdU/UaDroJskKy+CInCcGpKtFy2SM/f2DEXZia0odtKW AkFJ8zhzzn3S0Ycv=
+ps+79EMDbj3Yfgv4EM+XTN/fEOb3Zg3AXmq7j64D5/e/x/EfzZMnX5jx+LFZ LLyp6yNDOzskYb=
+6RubFdpbdvKUl2Jc+d9PvP5dmzUyH6TVoYXQOq+H5g9vb+cONsO9maLpIyyZPU kZNAppmh9Vpg=
+5kSXwCSVJ5/Vi/r8Tl73y2F9ePidJ3oaga+B4vkUgF+6EW1ndz11gvNdDdL1bDNr yKkCWO16th=
+yUGWIIeae2ZGvn1of5xFExoGF5eHgM4ANZsW032Tf05MjeW+xmNKeedeWAg9tmywPM 6rGYzOAP=
+BSfQ5Ss0Nf4pAmRrSmBP1ehIxQ6DpxF1aXaSH5X0bDcAR1aOxLRPtPdrZrwnd55Sx3gz IMO72O=
+wBq9kmox0RSkHHRNxrRJWFDbQXKpR1xN4eOfx0NqnMdFHulY/rw/1RAE5crEvvffGCvX/E VUoO=
+C3Mm24eaO6TyNZjeB5E+sDLMt2tCqZEW8lcgPSU2x0IhKlAYoTP4xUTueUMvHvJK3ouQ8ffH HP=
+62JpGeg/VSYciqNADbHQxvY5etdr65yhNXlG2B5xjzgWfHJoSeZ5Olbuaq+czQyYSvxal701dJ =
+SWoigRNqXItjORhsC+x74NfDtPQ6aGPkgAUlGROpTKBQR4gbB1x6fjz3/DK8GsoHj/SVG6pJACi=
++ NhQdApsQJFPCeliYKImgeEJmylc3Xzw5yp9xnIMYMkZt9HjVhK/GeHtqZI5+KUVJXtSVQcwcY=
+DPo FI93jhW+DWSjzZrGts0NQSwOZTFoMaMBaly6CTFZG2KXUt3Z1aQzC36rKrFJ0cgUb6aZRnu=
+RwjtI lo7Eq3CLWSya4eJ7a+TN2eudvClbk17ItFepoQLrpyQyxkZTjBYIiwqnXwF/1mXerQivt=
+u+Hohp7 tf7cWJnCTgBleCQ3bBEaPiaCTRXkNqBLu955o2kv+NzIIogDkGlAEfuwL51DYh9z3sd=
+K1y1ALyX2 FxJLK3Fj339NYnO16P4fEl8J9HUSaytxTHFRYqrhnJ60AZU2lNpDNOULaZH1FqBXJ=
+S4LhN8ECeos MgbLWUx3AK+xv4+ZKN6ACxxlZw0xDzdZKj7Z6E1ALyQ+91WNclwgIU6wwRli7xT=
+kzjA8BQCSBxfL +MUhlnGMDMYlfsPuWsdSF4GZa226io1MW4nzPvkQbWgDnIlGYHSCTU+QbOI9B=
+NtTTB7hxmEIh+FT KDJGZoiVpkA6KmNRj90E0duPNmaNxJ29QVh0RxWsOMNRh0JyDIk7LBK1iw6=
+2BV1cLKaXpY2n+HWs GkZidOZEysp3fDK4K3TvK90EisGf6bD/k6CTqDpBZt6EoTWcSXQU5mhX1=
+FvNm/XRiyQiaw0XKmDi EXL9kdV6FMMu9kvpyUDoB3SIB5uYxp2+fSr9P7Na7IOipsUpxZ5BqIS=
+NTw1rFy6bGrKoIjAbS9uu EKoT2NowqiWJ7cqM0KD9lT8X2t+lKz3S2l4Z/e4v9ptXzcFyn9Zd8=
+nlHHcjXaNZsaCvKqlW6dWP2 Ibr7sdE2e68H9sy+TvN5J6nwydLUvtuWfmoLugH4Zg34JzbbHwO=
+/wavG+68VdJPXihuC/zcvUJ+0 0W2ufwQYAGHKK2CFMIrzAAAAAElFTkSuQmCC"/><radialGra=
+dient cx=3D"7.394" cy=3D"5.437" gradientUnits=3D"userSpaceOnUse" id=3D"c" r=
+=3D"23.416"><stop offset=3D"0" stop-color=3D"#EEE"/><stop offset=3D".432" s=
+top-color=3D"#E6E6E6"/><stop offset=3D"1" stop-color=3D"#E1E1E1"/></radialG=
+radient><path d=3D"M13 23h8.5c.82 0 1.5-.68 1.5-1.5v-15c0-.83-.68-1.5-1.5-1=
+.5H7l6 18z" fill=3D"url(#c)"/></g><path clip-path=3D"url(#b)" d=3D"M18 11v-=
+1h-1v1h-3.75v1h5.32c-.2.49-.6 1.3-1.32 2.14-.51-.6-.86-1.18-1.1-1.64h-1.11c=
+.36.84.9 1.66 1.52 2.38l-2.6 2.58.71.71 2.58-2.58 2.58 2.58.71-.71-2.6-2.58=
+c.74-.86 1.33-1.85 1.68-2.88H21v-1h-3z" fill=3D"#607D8B"/><linearGradient g=
+radientUnits=3D"userSpaceOnUse" id=3D"d" x1=3D"12.333" x2=3D"23" y1=3D"14" =
+y2=3D"14"><stop offset=3D"0" stop-color=3D"#212121" stop-opacity=3D".1"/><s=
+top offset=3D"1" stop-color=3D"#212121" stop-opacity=3D".02"/></linearGradi=
+ent><path clip-path=3D"url(#b)" d=3D"M12.33 5L23 15.67V23H13" fill=3D"url(#=
+d)"/><g clip-path=3D"url(#b)"><image height=3D"8" opacity=3D".1" overflow=
+=3D"visible" transform=3D"translate(10.5 17.5)" width=3D"9" xlink:href=3D"d=
+ata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAACXBIWX=
+MAAAsSAAALEgHS3X78AAAA GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOFJ=
+REFUeNp0UD1LA0EUnLe7JsJh CiFpLVNYaS3411L7Z/InUpgmqRIRLGxEOEVQsoRcbnecu6AGTB=
+4M72vevjdr+DPDf+Nvs3858q7a Fp4oDOZBJ5dJMCVDzJ2T+LYYpeAyTj39UMNXhA00HABXKy89=
+bY6UlqrFoMHm5QK0a/mbXYxSyyZm eCBTe5Kr68+NGq+Kv4QzoSM8q3ZP8imjXjdEv/6Ysnd+q6=
+a7UN4XFsKYlifbUJXvj3ftytAqM1vJ z6UgGvgiIbN90g8RVddFKZ/pzqX+Y5NDtdonHTI71vgW=
+YADzWmdx/4fpmQAAAABJRU5ErkJggg=3D=3D"/><path d=3D"M17 19l-4 4-1.33-4" fill=
+=3D"#3F51B5"/></g><path clip-path=3D"url(#b)" d=3D"M21.5 5H7l.04.12H21.5c.8=
+2 0 1.5.67 1.5 1.5V6.5c0-.83-.68-1.5-1.5-1.5z" fill=3D"#212121" fill-opacit=
+y=3D".02"/><path clip-path=3D"url(#b)" d=3D"M21.5 22.88H13L11.71 19h-.04L13=
+ 23h8.5c.82 0 1.5-.68 1.5-1.5v-.12c0 .82-.68 1.5-1.5 1.5z" fill=3D"#212121"=
+ fill-opacity=3D".1"/><path clip-path=3D"url(#b)" d=3D"M12.97 22.91L13 23l4=
+-4h-.12" fill=3D"#1A237E" fill-opacity=3D".2"/><path clip-path=3D"url(#b)" =
+d=3D"M11.67 19.12h5.21L17 19h-5.33" fill=3D"#1A237E" fill-opacity=3D".1"/><=
+g clip-path=3D"url(#b)"><image height=3D"22" opacity=3D".2" overflow=3D"vis=
+ible" transform=3D"translate(-.5 -.5)" width=3D"20" xlink:href=3D"data:imag=
+e/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAYAAADk3wSdAAAACXBIWXMAAAsSAA=
+ALEgHS3X78AAAA GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUpJREFUeNqs=
+lbFOwzAQQO/sQCRc sqAOlRgrMjCVr+Er+IZ+Ax/WTCwVeyVQl9IOQY2Pc2qhNFwcGsdSrHNsP5=
+2fpTPCeUP4X6PQZA2Z Pi41lqXRpCYKtA5tsFBVFdo9penh821ZSWsS112X1hBdPXG44BSyQMaE=
+oHcJ6QJLu+LxrguKQDQB UAuOn3nfLATlqc0psmvuvyQVibfARyaXoQPeh6Hk9Mw4uL2bv3xs31=
++P7UWq5Rd7LsvN8akg5zBP KTPSIgWXN3OCQo6ARkpiCNQd36maegV6DGgjW1lBJFRWMBQaVDAU=
+GlQwAvSvghhop4IYaKeCkaDn CmKhooJYqKhAtao59VV1od3w99BU4EsfcQVXruBuPBMvgJIv1s=
+dmPSVA3HOhLvy/bCC0qDk8rjP9 TtWB36gVv1Hrvjeq792SjokRF/Z7Fz8CDAC8EmWDKVGDLgAA=
+AABJRU5ErkJggg=3D=3D"/><path d=3D"M11 1H2.5C1.68 1 1 1.68 1 2.5v15c0 .83.68=
+ 1.5 1.5 1.5H17L11 1z" fill=3D"#4285F4"/></g><path clip-path=3D"url(#b)" d=
+=3D"M2.5 1C1.68 1 1 1.68 1 2.5v.12c0-.82.68-1.5 1.5-1.5H11V1H2.5z" fill=3D"=
+#FFF" fill-opacity=3D".02"/><path clip-path=3D"url(#b)" d=3D"M11 1v.12l5.92=
+ 17.75H2.5c-.82 0-1.5-.67-1.5-1.5v.12c0 .84.68 1.51 1.5 1.51H17L11 1z" fill=
+=3D"#212121" fill-opacity=3D".1"/><g clip-path=3D"url(#b)"><path d=3D"M7.5 =
+10v1.2h1.98c-.08.52-.6 1.51-1.98 1.51-1.2 0-2.17-.99-2.17-2.21S6.3 8.29 7.5=
+ 8.29c.68 0 1.13.29 1.39.54l.95-.92C9.24 7.35 8.44 7 7.5 7 5.57 7 4 8.57 4 =
+10.5S5.57 14 7.5 14c2.02 0 3.36-1.42 3.36-3.42 0-.23-.02-.41-.06-.58H7.5z" =
+fill=3D"#EEE"/><path d=3D"M4 7h7v7H4z" fill=3D"none"/></g><radialGradient c=
+x=3D"1.457" cy=3D"1.42" gradientUnits=3D"userSpaceOnUse" id=3D"e" r=3D"29.7=
+92"><stop offset=3D"0" stop-color=3D"#FFF" stop-opacity=3D".1"/><stop offse=
+t=3D"1" stop-color=3D"#FFF" stop-opacity=3D"0"/></radialGradient><path d=3D=
+"M21.5 5h-9.17L11 1H2.5C1.68 1 1 1.68 1 2.5v15c0 .83.68 1.5 1.5 1.5h9.17L13=
+ 23h8.5c.82 0 1.5-.68 1.5-1.5v-15c0-.83-.68-1.5-1.5-1.5z" fill=3D"url(#e)"/=
+></svg>
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://kociemba.org/pics/fmoveslice2.gif
+
+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
+MmiAAG1QiZeYiTqIe4PIYSEAADs=
+
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://kociemba.org/pics/fmoveslice1.gif
+
+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
+
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://kociemba.org/pics/fmove.gif
+
+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
+
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://kociemba.org/pics/phase2.gif
+
+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
+
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.pgV-E-68K-A.L.W.O/am=AIAB/d=0/rs=AN8SPfrmq8FRbUqU1IlJUoEnksIMIqlZPQ/m=el_main_css
+
+@charset "utf-8";
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd { left: 0px; top: 0px; height: 39px; width: 100%=
+; z-index: 10000001; position: fixed; border-top: none; border-right: none;=
+ border-left: none; border-image: initial; border-bottom: 1px solid rgb(107=
+, 144, 218); margin: 0px; box-shadow: rgb(153, 153, 153) 0px 0px 8px 1px; }
+
+.VIpgJd-ZVi9od-xl07Ob-OEVmcd { z-index: 10000002; border: none; position: f=
+ixed; box-shadow: rgb(153, 153, 153) 0px 3px 8px 2px; }
+
+.VIpgJd-ZVi9od-SmfZ-OEVmcd { z-index: 10000000; border: none; margin: 0px; =
+}
+
+.goog-te-gadget { font-family: arial; font-size: 11px; color: rgb(102, 102,=
+ 102); white-space: nowrap; }
+
+.goog-te-gadget img { vertical-align: middle; border: none; }
+
+.goog-te-gadget-simple { background-color: rgb(255, 255, 255); border-width=
+: 1px; border-style: solid; border-color: rgb(155, 155, 155) rgb(213, 213, =
+213) rgb(232, 232, 232); font-size: 10pt; display: inline-block; padding-to=
+p: 1px; padding-bottom: 2px; cursor: pointer; }
+
+.goog-te-gadget-icon { margin-left: 2px; margin-right: 2px; width: 19px; he=
+ight: 19px; border: none; vertical-align: middle; }
+
+.goog-te-combo { margin-left: 4px; margin-right: 4px; vertical-align: basel=
+ine; }
+
+.goog-te-gadget .goog-te-combo { margin: 4px 0px; }
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd, .VIpgJd-ZVi9od-l4eHX-hSRGPd:link, .VIpgJd-ZVi9=
+od-l4eHX-hSRGPd:visited, .VIpgJd-ZVi9od-l4eHX-hSRGPd:hover, .VIpgJd-ZVi9od-=
+l4eHX-hSRGPd:active { font-size: 12px; font-weight: bold; color: rgb(68, 68=
+, 68); text-decoration: none; }
+
+.VIpgJd-ZVi9od-ORHb .VIpgJd-ZVi9od-l4eHX-hSRGPd, .VIpgJd-ZVi9od-TvD9Pc-hSRG=
+Pd { display: block; margin: 0px 10px; }
+
+.VIpgJd-ZVi9od-ORHb .VIpgJd-ZVi9od-l4eHX-hSRGPd { padding-top: 2px; padding=
+-left: 4px; }
+
+.goog-te-combo, .VIpgJd-ZVi9od-ORHb *, .VIpgJd-ZVi9od-SmfZ *, .VIpgJd-ZVi9o=
+d-xl07Ob *, .VIpgJd-ZVi9od-vH1Gmf *, .VIpgJd-ZVi9od-l9xktf * { font-family:=
+ arial; font-size: 10pt; }
+
+.VIpgJd-ZVi9od-ORHb { margin: 0px; background-color: rgb(228, 239, 251); ov=
+erflow: hidden; }
+
+.VIpgJd-ZVi9od-ORHb img { border: none; }
+
+.VIpgJd-ZVi9od-ORHb-bN97Pc { color: rgb(0, 0, 0); }
+
+.VIpgJd-ZVi9od-ORHb-bN97Pc img { vertical-align: middle; }
+
+.VIpgJd-ZVi9od-ORHb-Tswv1b { color: rgb(102, 102, 102); vertical-align: top=
+; margin-top: 0px; font-size: 7pt; }
+
+.VIpgJd-ZVi9od-ORHb-KE6vqe { width: 8px; }
+
+.VIpgJd-ZVi9od-LgbsSe { border-color: rgb(231, 231, 231); border-style: non=
+e solid solid none; border-width: 0px 1px 1px 0px; }
+
+.VIpgJd-ZVi9od-LgbsSe div { border-color: rgb(204, 204, 204) rgb(153, 153, =
+153) rgb(153, 153, 153) rgb(204, 204, 204); border-style: solid; border-wid=
+th: 1px; height: 20px; }
+
+.VIpgJd-ZVi9od-LgbsSe button { background: transparent; border: none; curso=
+r: pointer; height: 20px; overflow: hidden; margin: 0px; vertical-align: to=
+p; white-space: nowrap; }
+
+.VIpgJd-ZVi9od-LgbsSe button:active { background: none 0px 0px repeat scrol=
+l rgb(204, 204, 204); }
+
+.VIpgJd-ZVi9od-SmfZ { margin: 0px; background-color: rgb(255, 255, 255); wh=
+ite-space: nowrap; }
+
+.VIpgJd-ZVi9od-SmfZ-hSRGPd { text-decoration: none; font-weight: bold; font=
+-size: 10pt; border: 1px outset rgb(136, 136, 136); padding: 6px 10px; whit=
+e-space: nowrap; position: absolute; left: 0px; top: 0px; }
+
+.VIpgJd-ZVi9od-SmfZ-hSRGPd img { margin-left: 2px; margin-right: 2px; width=
+: 19px; height: 19px; border: none; vertical-align: middle; }
+
+.VIpgJd-ZVi9od-SmfZ-hSRGPd span { text-decoration: underline; margin-left: =
+2px; margin-right: 2px; vertical-align: middle; }
+
+.goog-te-float-top .VIpgJd-ZVi9od-SmfZ-hSRGPd { padding: 2px; border-top-wi=
+dth: 0px; }
+
+.goog-te-float-bottom .VIpgJd-ZVi9od-SmfZ-hSRGPd { padding: 2px; border-bot=
+tom-width: 0px; }
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed { text-decoration: none; color: rgb(0, 0, 204)=
+; white-space: nowrap; margin-left: 4px; margin-right: 4px; }
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span { text-decoration: underline; }
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed img { margin-left: 2px; margin-right: 2px; }
+
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed { color: rgb(0, 0, 0); =
+}
+
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span { text-decoration:=
+ none; }
+
+.VIpgJd-ZVi9od-xl07Ob { background-color: rgb(255, 255, 255); text-decorati=
+on: none; border: 2px solid rgb(195, 217, 255); overflow: hidden scroll; po=
+sition: absolute; left: 0px; top: 0px; }
+
+.VIpgJd-ZVi9od-xl07Ob-ibnC6b { padding: 3px; text-decoration: none; }
+
+.VIpgJd-ZVi9od-xl07Ob-ibnC6b, .VIpgJd-ZVi9od-xl07Ob-ibnC6b:link { color: rg=
+b(0, 0, 204); background: rgb(255, 255, 255); }
+
+.VIpgJd-ZVi9od-xl07Ob-ibnC6b:visited { color: rgb(85, 26, 139); }
+
+.VIpgJd-ZVi9od-xl07Ob-ibnC6b:hover { background: rgb(195, 217, 255); }
+
+.VIpgJd-ZVi9od-xl07Ob-ibnC6b:active { color: rgb(0, 0, 204); }
+
+.VIpgJd-ZVi9od-vH1Gmf { background-color: rgb(255, 255, 255); text-decorati=
+on: none; border: 1px solid rgb(107, 144, 218); overflow: hidden; padding: =
+4px; }
+
+.VIpgJd-ZVi9od-vH1Gmf-KrhPNb { width: 16px; }
+
+.VIpgJd-ZVi9od-vH1Gmf-hgDUwe { margin: 6px 0px; height: 1px; background-col=
+or: rgb(170, 170, 170); overflow: hidden; }
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd div {=
+ padding: 4px; }
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b .uDEFge { display: none; }
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd .fmcmS { padding-left: 4px; padding-rig=
+ht: 4px; }
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd { text-de=
+coration: none; }
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b:link div, .V=
+IpgJd-ZVi9od-vH1Gmf-ibnC6b:visited div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b:active=
+ div { color: rgb(0, 0, 204); background: rgb(255, 255, 255); }
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b:hover div { color: rgb(255, 255, 255); backgro=
+und: rgb(51, 102, 204); }
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SM=
+d:link div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd:visited div, .VIpgJd-ZVi9od=
+-vH1Gmf-ibnC6b-gk6SMd:hover div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd:active=
+ div { color: rgb(0, 0, 0); font-weight: bold; }
+
+.VIpgJd-ZVi9od-l9xktf { background-color: rgb(255, 255, 255); overflow: hid=
+den; padding: 8px; border: none; border-radius: 10px; }
+
+.VIpgJd-ZVi9od-l9xktf-OEVmcd { background-color: rgb(255, 255, 255); border=
+: 1px solid rgb(107, 144, 218); box-shadow: rgb(153, 153, 153) 0px 3px 8px =
+2px; border-radius: 8px; }
+
+.VIpgJd-ZVi9od-l9xktf img { border: none; }
+
+.VIpgJd-ZVi9od-l9xktf-fmcmS { margin-top: 6px; }
+
+.VIpgJd-ZVi9od-l9xktf-VgwJlc { margin-top: 6px; white-space: nowrap; }
+
+.VIpgJd-ZVi9od-l9xktf-VgwJlc * { vertical-align: middle; }
+
+.VIpgJd-ZVi9od-l9xktf-VgwJlc .DUGJie { background-image: url("https://www&g=
+oogle.com/images/zippy_minus_sm.gif"); }
+
+.VIpgJd-ZVi9od-l9xktf-VgwJlc .TdyTDe { background-image: url("https://www&g=
+oogle.com/images/zippy_plus_sm.gif"); }
+
+.VIpgJd-ZVi9od-l9xktf-VgwJlc span { color: rgb(0, 0, 204); text-decoration:=
+ underline; cursor: pointer; margin: 0px 4px; }
+
+.VIpgJd-ZVi9od-l9xktf-I9GLp { margin: 6px 0px 0px; }
+
+.VIpgJd-ZVi9od-l9xktf-I9GLp form { margin: 0px; }
+
+.VIpgJd-ZVi9od-l9xktf-I9GLp form textarea { margin-bottom: 4px; width: 100%=
+; }
+
+.VIpgJd-ZVi9od-l9xktf-yePe5c { margin: 6px 0px 4px; }
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf { z-index: 1000; position: fixed; transition-d=
+elay: 0.6s; left: -1000px; top: -1000px; }
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf-ti6hGc { transition-delay: 0s; left: -14px; to=
+p: -14px; }
+
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO { display: flex; -webkit-box-align: center; ali=
+gn-items: center; -webkit-box-pack: center; justify-content: center; width:=
+ 104px; height: 104px; border-radius: 50px; background: url("https://www.gs=
+tatic.com/images/branding/product/2x/translate_24dp.png") 50% 50% no-repeat=
+ rgb(255, 255, 255); transition: 0.6s ease-in-out; transform: scale(0.4); o=
+pacity: 0; }
+
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO-ti6hGc { transform: scale(0.5); opacity: 1; }
+
+.VIpgJd-ZVi9od-aZ2wEe { margin: 2px 0px 0px 2px; animation: 1.4s linear 0s =
+infinite normal none running spinner-rotator; }
+
+@-webkit-keyframes spinner-rotator {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+@keyframes spinner-rotator {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-Jt5cK { stroke-dasharray: 187; stroke-dashoffset: 0; =
+stroke: rgb(66, 133, 244); transform-origin: center center; animation: 1.4s=
+ ease-in-out 0s infinite normal none running spinner-dash; }
+
+@-webkit-keyframes spinner-dash {=20
+  0% { stroke-dashoffset: 187; }
+  50% { stroke-dashoffset: 46.75; transform: rotate(135deg); }
+  100% { stroke-dashoffset: 187; transform: rotate(450deg); }
+}
+
+@keyframes spinner-dash {=20
+  0% { stroke-dashoffset: 187; }
+  50% { stroke-dashoffset: 46.75; transform: rotate(135deg); }
+  100% { stroke-dashoffset: 187; transform: rotate(450deg); }
+}
+
+.VIpgJd-yAWNEb-L7lbkb html, .VIpgJd-yAWNEb-L7lbkb body, .VIpgJd-yAWNEb-L7lb=
+kb div, .VIpgJd-yAWNEb-L7lbkb span, .VIpgJd-yAWNEb-L7lbkb iframe, .VIpgJd-y=
+AWNEb-L7lbkb h1, .VIpgJd-yAWNEb-L7lbkb h2, .VIpgJd-yAWNEb-L7lbkb h3, .VIpgJ=
+d-yAWNEb-L7lbkb h4, .VIpgJd-yAWNEb-L7lbkb h5, .VIpgJd-yAWNEb-L7lbkb h6, .VI=
+pgJd-yAWNEb-L7lbkb p, .VIpgJd-yAWNEb-L7lbkb a, .VIpgJd-yAWNEb-L7lbkb img, .=
+VIpgJd-yAWNEb-L7lbkb ol, .VIpgJd-yAWNEb-L7lbkb ul, .VIpgJd-yAWNEb-L7lbkb li=
+, .VIpgJd-yAWNEb-L7lbkb table, .VIpgJd-yAWNEb-L7lbkb form, .VIpgJd-yAWNEb-L=
+7lbkb tbody, .VIpgJd-yAWNEb-L7lbkb tr, .VIpgJd-yAWNEb-L7lbkb td { color-sch=
+eme: unset; forced-color-adjust: unset; mask: unset; math-depth: unset; pos=
+ition: unset; position-anchor: unset; text-size-adjust: unset; appearance: =
+unset; color: unset; font-family: unset; font-feature-settings: unset; font=
+-kerning: unset; font-optical-sizing: unset; font-palette: unset; font-size=
+: 100%; font-size-adjust: unset; font-stretch: unset; font-style: unset; fo=
+nt-synthesis: unset; font-variant: unset; font-variation-settings: unset; f=
+ont-weight: unset; position-area: unset; text-orientation: unset; text-rend=
+ering: unset; text-spacing-trim: unset; -webkit-font-smoothing: unset; -web=
+kit-locale: unset; -webkit-text-orientation: unset; -webkit-writing-mode: u=
+nset; writing-mode: unset; zoom: unset; accent-color: unset; place-content:=
+ unset; place-items: unset; place-self: unset; alignment-baseline: unset; a=
+nchor-name: unset; anchor-scope: unset; animation-composition: unset; anima=
+tion: unset; app-region: unset; aspect-ratio: unset; backdrop-filter: unset=
+; backface-visibility: unset; background: unset; background-blend-mode: uns=
+et; baseline-shift: unset; baseline-source: unset; block-size: unset; borde=
+r-block: unset; border: unset; border-radius: unset; border-collapse: unset=
+; border-end-end-radius: unset; border-end-start-radius: unset; border-inli=
+ne: unset; border-start-end-radius: unset; border-start-start-radius: unset=
+; inset: unset; box-decoration-break: unset; box-shadow: unset; box-sizing:=
+ unset; break-after: unset; break-before: unset; break-inside: unset; buffe=
+red-rendering: unset; caption-side: unset; caret-color: unset; clear: unset=
+; clip: unset; clip-path: unset; clip-rule: unset; color-interpolation: uns=
+et; color-interpolation-filters: unset; color-rendering: unset; columns: un=
+set; column-fill: unset; gap: unset; column-rule: unset; column-span: unset=
+; contain: unset; contain-intrinsic-block-size: unset; contain-intrinsic-si=
+ze: unset; contain-intrinsic-inline-size: unset; container: unset; content:=
+ unset; content-visibility: unset; counter-increment: unset; counter-reset:=
+ unset; counter-set: unset; cursor: unset; cx: unset; cy: unset; d: unset; =
+display: unset; dominant-baseline: unset; dynamic-range-limit: unset; empty=
+-cells: unset; field-sizing: unset; fill: unset; fill-opacity: unset; fill-=
+rule: unset; filter: unset; flex: unset; flex-flow: unset; float: unset; fl=
+ood-color: unset; flood-opacity: unset; grid: unset; grid-area: unset; heig=
+ht: unset; hyphenate-character: unset; hyphenate-limit-chars: unset; hyphen=
+s: unset; image-orientation: unset; image-rendering: unset; initial-letter:=
+ unset; inline-size: unset; inset-block: unset; inset-inline: unset; interp=
+olate-size: unset; isolation: unset; letter-spacing: unset; lighting-color:=
+ unset; line-break: unset; line-height: normal; list-style: unset; margin-b=
+lock: unset; margin: unset; margin-inline: unset; marker: unset; mask-type:=
+ unset; math-shift: unset; math-style: unset; max-block-size: unset; max-he=
+ight: unset; max-inline-size: unset; max-width: unset; min-block-size: unse=
+t; min-height: unset; min-inline-size: unset; min-width: unset; mix-blend-m=
+ode: unset; object-fit: unset; object-position: unset; object-view-box: uns=
+et; offset: unset; opacity: unset; order: unset; orphans: unset; outline: u=
+nset; outline-offset: unset; overflow-anchor: unset; overflow-block: unset;=
+ overflow-clip-margin: unset; overflow-inline: unset; overflow-wrap: unset;=
+ overflow: unset; overlay: unset; overscroll-behavior-block: unset; overscr=
+oll-behavior-inline: unset; overscroll-behavior: unset; padding-block: unse=
+t; padding: unset; padding-inline: unset; page: unset; page-orientation: un=
+set; paint-order: unset; perspective: unset; perspective-origin: unset; poi=
+nter-events: unset; position-try: unset; position-visibility: unset; print-=
+color-adjust: unset; quotes: unset; r: unset; resize: unset; rotate: unset;=
+ ruby-align: unset; ruby-position: unset; rx: unset; ry: unset; scale: unse=
+t; scroll-behavior: unset; scroll-initial-target: unset; scroll-margin-bloc=
+k: unset; scroll-margin: unset; scroll-margin-inline: unset; scroll-marker-=
+group: unset; scroll-padding-block: unset; scroll-padding: unset; scroll-pa=
+dding-inline: unset; scroll-snap-align: unset; scroll-snap-stop: unset; scr=
+oll-snap-type: unset; scroll-timeline: unset; scrollbar-color: unset; scrol=
+lbar-gutter: unset; scrollbar-width: unset; shape-image-threshold: unset; s=
+hape-margin: unset; shape-outside: unset; shape-rendering: unset; size: uns=
+et; speak: unset; stop-color: unset; stop-opacity: unset; stroke: unset; st=
+roke-dasharray: unset; stroke-dashoffset: unset; stroke-linecap: unset; str=
+oke-linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset; strok=
+e-width: unset; tab-size: unset; table-layout: unset; text-align: unset; te=
+xt-align-last: unset; text-anchor: unset; text-box: unset; text-combine-upr=
+ight: unset; text-decoration: unset; text-decoration-skip-ink: unset; text-=
+emphasis: unset; text-emphasis-position: unset; text-indent: unset; text-ov=
+erflow: unset; text-shadow: unset; text-transform: unset; text-underline-of=
+fset: unset; text-underline-position: unset; text-wrap: unset; timeline-sco=
+pe: unset; touch-action: unset; transform: unset; transform-box: unset; tra=
+nsform-origin: unset; transform-style: unset; transition: unset; translate:=
+ unset; user-select: unset; vector-effect: unset; vertical-align: unset; vi=
+ew-timeline: unset; view-transition-class: unset; view-transition-name: uns=
+et; visibility: unset; border-spacing: unset; -webkit-box-align: unset; -we=
+bkit-box-decoration-break: unset; -webkit-box-direction: unset; -webkit-box=
+-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orient: unset; =
+-webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line-break: un=
+set; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -webkit-rtl-=
+ordering: unset; -webkit-ruby-position: unset; -webkit-tap-highlight-color:=
+ unset; -webkit-text-combine: unset; -webkit-text-decorations-in-effect: un=
+set; -webkit-text-fill-color: unset; -webkit-text-security: unset; -webkit-=
+text-stroke: unset; -webkit-user-drag: unset; white-space-collapse: unset; =
+widows: unset; width: unset; will-change: unset; word-break: unset; word-sp=
+acing: unset; x: unset; y: unset; z-index: unset; }
+
+.VIpgJd-yAWNEb-L7lbkb ol, .VIpgJd-yAWNEb-L7lbkb ul { list-style: none; }
+
+.VIpgJd-yAWNEb-L7lbkb table { border-collapse: collapse; border-spacing: 0p=
+x; }
+
+.VIpgJd-yAWNEb-L7lbkb caption, .VIpgJd-yAWNEb-L7lbkb th, .VIpgJd-yAWNEb-L7l=
+bkb td { text-align: left; font-weight: normal; }
+
+div > .VIpgJd-yAWNEb-L7lbkb { padding: 10px 14px; }
+
+.VIpgJd-yAWNEb-L7lbkb { color: rgb(34, 34, 34); background-color: rgb(255, =
+255, 255); border: 1px solid rgb(238, 238, 238); box-shadow: rgba(0, 0, 0, =
+0.2) 0px 4px 16px; display: none; font-family: arial; font-size: 10pt; widt=
+h: 420px; padding: 12px; position: absolute; z-index: 10000; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-nVMfcd-fmcmS, .VIpgJd-yAWNEb-yAWNEb-Vy=
+2Aqc-pbTTYe { clear: both; font-size: 10pt; position: relative; text-align:=
+ justify; width: 100%; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-r4nke { color: rgb(153, 153, 153); fon=
+t-family: arial, sans-serif; margin: 4px 0px; text-align: left; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-TvD9Pc-LgbsSe { display: none; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-l4eHX { float: left; margin: 0px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-Z0Arqf-PLDbbf { display: inline-block;=
+ }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-fw42Ze-Z0Arqf-haAclf { display: none; =
+width: 100%; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-Z0Arqf-H9tDt { margin-top: 20px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-LK5yu { float: left; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-qwU8Me { float: right; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-cGMI2b { min-height: 15px; position: r=
+elative; height: 1%; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-jOfkMb-Ne3sFf { background: rgb(41, 14=
+5, 13); border-radius: 4px; box-shadow: rgb(30, 102, 9) 0px 2px 2px inset; =
+color: white; font-size: 9pt; font-weight: bolder; margin-top: 12px; paddin=
+g: 6px; text-shadow: rgb(30, 102, 9) 1px 1px 1px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-Z0Arqf-hSRGPd { color: rgb(17, 85, 204=
+); cursor: pointer; font-family: arial; font-size: 11px; margin-right: 15px=
+; text-decoration: none; }
+
+.VIpgJd-yAWNEb-L7lbkb > textarea { font-family: arial; resize: vertical; wi=
+dth: 100%; margin-bottom: 10px; border-radius: 1px; border-width: 1px; bord=
+er-style: solid; border-color: silver rgb(217, 217, 217) rgb(217, 217, 217)=
+; border-image: initial; font-size: 13px; height: auto; overflow-y: auto; p=
+adding: 1px; }
+
+.VIpgJd-yAWNEb-L7lbkb textarea:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 1=
+px 2px inset; border: 1px solid rgb(77, 144, 254); outline: none; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-Z0Arqf-IbE0S { margin-right: 10px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp { min-height: 25px; verti=
+cal-align: middle; padding-top: 8px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp { margin-bottom: 0px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input { display: inline-block; min-width: 54px; border: 1px solid rgba(0=
+, 0, 0, 0.1); text-align: center; color: rgb(68, 68, 68); font-size: 11px; =
+font-weight: bold; height: 27px; outline: 0px; padding: 0px 8px; vertical-a=
+lign: middle; line-height: 27px; margin: 0px 16px 0px 0px; box-shadow: rgba=
+(0, 0, 0, 0.1) 0px 1px 2px; border-radius: 2px; transition: 0.218s; backgro=
+und-color: rgb(245, 245, 245); background-image: -webkit-linear-gradient(to=
+p, rgb(245, 245, 245), rgb(241, 241, 241)); user-select: none; cursor: defa=
+ult; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input:hover { border: 1px solid rgb(198, 198, 198); color: rgb(34, 34, 3=
+4); transition: all; background-color: rgb(248, 248, 248); background-image=
+: -webkit-linear-gradient(top, rgb(248, 248, 248), rgb(241, 241, 241)); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input:active { border: 1px solid rgb(198, 198, 198); color: rgb(51, 51, =
+51); background-color: rgb(246, 246, 246); background-image: -webkit-linear=
+-gradient(top, rgb(246, 246, 246), rgb(241, 241, 241)); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input:focus .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yA=
+WNEb-Z0Arqf-I9GLp input.AHmuwe .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-=
+I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:active, .VIpgJd-yAWNEb-L7lbkb .VIpg=
+Jd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:focus:active { box=
+-shadow: rgba(255, 255, 255, 0.5) 0px 0px 0px 1px inset; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input:focus, .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-y=
+AWNEb-Z0Arqf-I9GLp input.AHmuwe { outline: none; border: 1px solid rgb(77, =
+144, 254); z-index: 4 !important; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input.gk6SMd { background-color: rgb(238, 238, 238); background-image: -=
+webkit-linear-gradient(top, rgb(238, 238, 238), rgb(224, 224, 224)); box-sh=
+adow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset; border: 1px solid rgb(204, 204,=
+ 204); color: rgb(51, 51, 51); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf { color: white; border-color: rgb(48,=
+ 121, 237); background-color: rgb(77, 144, 254); background-image: -webkit-=
+linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237)); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf:hover .VIpgJd-yAWNEb-L7lbkb .VIpgJd-y=
+AWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-=
+sFeBqf:focus, .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAW=
+NEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf.AHmuwe .VIpgJd-yAWNEb-L=
+7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd=
+-yAWNEb-Z0Arqf-sFeBqf:active { border-color: rgb(48, 121, 237); background-=
+color: rgb(53, 122, 232); background-image: -webkit-linear-gradient(top, rg=
+b(77, 144, 254), rgb(53, 122, 232)); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf:hover { box-shadow: rgb(255, 255, 255=
+) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.1) 0px 1px 1px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9G=
+Lp input:focus, .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-y=
+AWNEb-Z0Arqf-I9GLp input.AHmuwe, .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5=
+e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:active, .VIpgJd-yAWNEb-L7lbkb .VI=
+pgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:hover, .VIpgJd-y=
+AWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input =
+.VIpgJd-yAWNEb-Z0Arqf-sFeBqf:focus, .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4=
+Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf.A=
+Hmuwe, .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0A=
+rqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf:active, .VIpgJd-yAWNEb-L7lbkb =
+.VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNE=
+b-Z0Arqf-sFeBqf:hover { border-color: rgb(48, 121, 237); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-mrxPge { color: rgb(153, 153, 153); fo=
+nt-family: arial, sans-serif; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-W0vJo-fmcmS { color: rgb(153, 1=
+53, 153); font-size: 11px; font-family: arial, sans-serif; margin: 15px 0px=
+ 5px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-u0pjoe-fmcmS { color: rgb(136, =
+0, 0); display: none; font-size: 9pt; }
+
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q { background-color: rgb(201, 215, 241); b=
+ox-shadow: rgb(153, 153, 170) 2px 2px 4px; box-sizing: border-box; position=
+: relative; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-xl07Ob .VIpgJd-yAWNEb-VIpgJd-xl=
+07Ob { background: rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221)=
+; box-shadow: rgb(153, 153, 170) 0px 2px 4px; min-width: 0px; outline: none=
+; padding: 0px; position: absolute; z-index: 2000; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-xl07Ob .VIpgJd-yAWNEb-VIpgJd-j7=
+LFlb { cursor: pointer; padding: 2px 5px 5px; margin-right: 0px; border-sty=
+le: none; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-xl07Ob .VIpgJd-yAWNEb-VIpgJd-j7=
+LFlb:hover { background: rgb(221, 221, 221); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-xl07Ob .VIpgJd-yAWNEb-VIpgJd-j7=
+LFlb h1 { font-size: 100%; font-weight: bold; margin: 4px 0px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-xl07Ob .VIpgJd-yAWNEb-VIpgJd-j7=
+LFlb strong { color: rgb(52, 90, 173); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-VIpgJd-eKm5Fc-hFsbo { text-align: righ=
+t; position: absolute; right: 0px; left: auto; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-VIpgJd-j7LFlb-SIsrTd .VIpgJd-yAWNEb-VI=
+pgJd-eKm5Fc-hFsbo { text-align: left; position: absolute; left: 0px; right:=
+ auto; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-yAWNEb-Vy2Aqc-fmcmS, .VIpgJd-yAWNEb-L7=
+lbkb .VIpgJd-yAWNEb-TVLw9c-ppHlrf-sn54Q { background-color: rgb(241, 234, 0=
+); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px; box-sizi=
+ng: border-box; color: rgb(241, 234, 0); cursor: pointer; margin: -2px -2px=
+ -2px -3px; padding: 2px 2px 2px 3px; position: relative; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-TVLw9c-ppHlrf-sn54Q { color: rgb(34, 3=
+4, 34); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-yAWNEb-Vy2Aqc-pbTTYe { color: white; p=
+osition: absolute !important; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-TVLw9c-ppHlrf, .VIpgJd-yAWNEb-L7lbkb .=
+VIpgJd-yAWNEb-TVLw9c-ppHlrf .VIpgJd-yAWNEb-TVLw9c-ppHlrf-sn54Q { background=
+-color: rgb(201, 215, 241); border-radius: 4px 4px 0px 0px; box-shadow: rgb=
+a(0, 0, 0, 0.5) 3px 3px 4px; box-sizing: border-box; cursor: pointer; margi=
+n: -2px -2px -2px -3px; padding: 2px 2px 3px 3px; position: relative; }
+
+.VIpgJd-yAWNEb-L7lbkb span:focus { outline: none; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-TVLw9c-DyVDA { background-color: trans=
+parent; border: 1px solid rgb(77, 144, 254); border-radius: 0px; margin: -2=
+px; padding: 1px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-yAWNEb-TVLw9c-sn54Q-LzX3ef { border-le=
+ft: 2px solid red; margin-left: -2px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-yAWNEb-TVLw9c-sn54Q-YIAiIb { border-ri=
+ght: 2px solid red; margin-right: -2px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-YPqjbf { padding: 2px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-YPqjbf-fmcmS { font-size: 11px;=
+ padding: 2px 2px 3px; margin: 0px; background-color: rgb(255, 255, 255); c=
+olor: rgb(51, 51, 51); border-width: 1px; border-style: solid; border-color=
+: rgb(192, 192, 192) rgb(217, 217, 217) rgb(217, 217, 217); border-image: i=
+nitial; display: inline-block; vertical-align: top; height: 21px; box-sizin=
+g: border-box; border-radius: 1px; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-YPqjbf-fmcmS:hover { border-wid=
+th: 1px; border-style: solid; border-color: rgb(160, 160, 160) rgb(185, 185=
+, 185) rgb(185, 185, 185); border-image: initial; box-shadow: rgba(0, 0, 0,=
+ 0.1) 0px 1px 2px inset; }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-YPqjbf-fmcmS:focus { box-shadow=
+: rgba(0, 0, 0, 0.3) 0px 1px 2px inset; outline: none; border: 1px solid rg=
+b(77, 144, 254); }
+
+.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-IFdKyd-YPqjbf-sFeBqf { font-size: 11px=
+; padding: 2px 6px 3px; margin: 0px 0px 0px 2px; height: 21px; }
+
+.VIpgJd-yAWNEb-L7lbkb > div { display: flex; -webkit-box-orient: vertical; =
+-webkit-box-direction: normal; flex-direction: column; font-family: "Google=
+ Sans", Arial, sans-serif; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-Ud7fr { display: flex; -webkit-=
+box-align: end; align-items: end; margin: 14px; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-IuizWc-SIsrTd { margin-right: 1=
+4px; color: rgb(116, 119, 117); font-size: 14px; font-weight: 500; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-IuizWc-i3jM8c { margin-left: 14=
+px; color: rgb(116, 119, 117); font-size: 14px; font-weight: 500; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-k77Iif { margin: 0px 16px 16px;=
+ }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-axAV1 { width: auto; color: rgb=
+(31, 31, 31); font-size: 16px; text-align: initial; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-axAV1 .VIpgJd-yAWNEb-SIsrTd { t=
+ext-align: right; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-N7Eqid { border-radius: 0px 0px=
+ 12px 12px; margin: 0px; background: rgb(241, 244, 249); position: relative=
+; min-height: 50px; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-N7Eqid .VIpgJd-yAWNEb-SIsrTd { =
+text-align: right; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od { display: flex; =
+-webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction=
+: column; width: 77%; padding: 12px; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od .VIpgJd-yAWNEb-SI=
+srTd { text-align: right; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-UTujCb { color: rgb(31, 31, 31)=
+; font-size: 12px; font-weight: 500; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od .VIpgJd-yAWNEb-SI=
+srTd .VIpgJd-yAWNEb-hvhgNd-UTujCb { text-align: right; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-eO9mKe { color: rgb(68, 71, 70)=
+; font-size: 12px; padding-top: 4px; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od .VIpgJd-yAWNEb-SI=
+srTd .VIpgJd-yAWNEb-hvhgNd-eO9mKe { text-align: right; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-xgov5 { position: absolute; top=
+: 10px; right: 5px; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-xgov5 .VIpgJd-yAWNEb-SIsrTd { l=
+eft: 5px; right: auto; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-THI6Vb { fill: rgb(11, 87, 208)=
+; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-bgm6sf { margin: -4px 2px 0px 0=
+px; padding: 2px 0px 0px; width: 48px; height: 48px; border: none; border-r=
+adius: 24px; cursor: pointer; background: none; }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-bgm6sf:hover { background: rgb(=
+232, 235, 236); }
+
+.VIpgJd-yAWNEb-hvhgNd .VIpgJd-yAWNEb-hvhgNd-aXYTce { display: none; }
+
+sentinel { }
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://kociemba.org/math/style.css
+
+@charset "windows-1252";
+
+body { font-family: Arial, Helvetica, sans-serif; background-color: rgb(240=
+, 240, 240); }
+
+td { background-color: rgb(255, 255, 255); }
+
+td { border-width: 1px; border-style: solid; border-color: rgb(192, 192, 25=
+5); }
+
+th { border-width: 1px; border-style: solid; border-color: rgb(192, 192, 25=
+5); }
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s----
+Content-Type: text/html
+Content-ID: <frame-4A7BACC2167574B45199577C0A874059@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body data-new-gr-c-s-check-loaded=3D"14.1240.0" data-gr-e=
+xt-installed=3D""></body><grammarly-desktop-integration data-grammarly-shad=
+ow-root=3D"true"><template shadowmode=3D"open"><div aria-label=3D"grammarly=
+-integration" role=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-int=
+egration" data-content=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive=
+&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly=
+-desktop-integration></html>
+------MultipartBoundary--bTDPeishqQZlXECMn6OtjDZsokco5VPkWqZ0mw738s------
